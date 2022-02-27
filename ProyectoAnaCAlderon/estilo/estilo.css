@@ -1,0 +1,139 @@
+*{
+    margin: 0% auto;
+    padding: 0% auto;
+    box-sizing: border-box;
+}
+
+div #titulos{
+font-style: oblique;
+text-decoration: overline;
+text-decoration: underline;
+}
+
+.Nombres, .car, .Puntuacion{
+background-color: rgba(209, 176, 124, 0.753);
+}
+
+.imagen{
+width: 400px;
+height: 400px;
+margin-top: -110px;
+margin-left: 500px;
+}
+
+#arriba{
+    background:linear-gradient(to top, coral 40%, white );
+}
+  
+h1{
+    text-align: center;
+    margin-top: -100px;
+    font-size: 60px;
+
+}
+
+/*FORMULARIO*/
+
+#Nombre, #numero{
+    font-weight:bold;
+    font-size: 19px;
+    margin-left: 40px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+.Nombres:hover, .plantita:hover, .car:hover, .elige:hover, .Puntuacion:hover, .numero:hover{
+    background-color: burlywood;
+}
+
+#checkbox{
+    font-size: 17px;
+    margin-left: 78px;
+    margin-top: 9px;
+}
+
+
+#Puntuacion{
+    font-weight:bold;
+   margin-left: 40px;
+   font-size: 19px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+#text{
+    padding-left: 448px;
+}
+#text #mensaje{
+    font-family: cursive;
+    text-align: center;
+    border: 5px solid rgb(236, 179, 103);
+    border-style:dotted;
+      
+    
+}
+#ele{
+    font-weight:bold;
+    font-size: 19px;
+    margin-left: 40px;
+}
+
+
+ #caracteristica{
+    font-weight:bold;
+    margin-left:40px;
+    font-size: 19px;
+  
+ }
+
+ #caracteristicas{
+    margin-left:78px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ 
+ .planta{
+     margin-left: 40px;
+ }
+
+ .plantas{
+    margin-left: 77px;
+    font-size: 18px;
+ }
+
+ button[type="submit"]{
+    margin-left: 700px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 80px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: black;
+    background: rgb(255, 219, 172);
+    border: 2px solid rgba(160, 98, 75, 0.897);
+
+}
+
+
+button[type="submit"]:hover {
+    background-color: #535201;
+	color: #6e6d00;
+}
+footer{
+    border: 1px solid rgb(236, 179, 103);
+    width: 500px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 5px;
+    
+}
+footer p{
+    text-align: center;
+    background:linear-gradient(to top, coral 40%, white );
+}
+
+footer p:hover{
+    color: white;
+    background: green;
+}
+
